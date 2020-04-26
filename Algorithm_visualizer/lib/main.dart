@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'Screens/DP.dart';
+import 'Screens/Divide.dart';
 import 'Screens/Greedy.dart';
 import 'Screens/Sort.dart';
 
@@ -50,12 +51,12 @@ class _MyHomePageState extends State<MyHomePage> {
         title: Text(widget.title),
       ),
       body: Container(
-        decoration: BoxDecoration(
-          image: DecorationImage(
-            image: AssetImage("assets/Daa.jpg"),
-            fit: BoxFit.cover,
-          ),
-        ),
+        // decoration: BoxDecoration(
+        //   image: DecorationImage(
+        //     image: AssetImage("assets/Daa.jpg"),
+        //     fit: BoxFit.cover,
+        //   ),
+        // ),
         child: Center(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
@@ -126,7 +127,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         onPressed: () {
                           Navigator.push(
                                     context,
-                                    MaterialPageRoute(builder: (context) => Greedy()),
+                                    MaterialPageRoute(builder: (context) => Divide()),
                                   );
                         },
                         color: Colors.blue,

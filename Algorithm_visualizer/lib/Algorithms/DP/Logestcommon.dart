@@ -190,7 +190,7 @@ Widget algoview()
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title:Text("BuBBle Sort")
+        title:Text("Longest Common Subsequence")
       ),
       body:Center(
         child: SingleChildScrollView(

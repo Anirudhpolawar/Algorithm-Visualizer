@@ -14,12 +14,12 @@ class _DivideState extends State<Divide> {
         title: Text("Divide and Conquer"),
       ),
       body: Container(
-        decoration: BoxDecoration(
-          image: DecorationImage(
-            image: AssetImage("assets/Daa.jpg"),
-            fit: BoxFit.cover,
-          ),
-        ),
+        // decoration: BoxDecoration(
+        //   image: DecorationImage(
+        //     image: AssetImage("assets/Daa.jpg"),
+        //     fit: BoxFit.cover,
+        //   ),
+        // ),
 
         child: Center(
           

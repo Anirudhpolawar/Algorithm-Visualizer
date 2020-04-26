@@ -274,7 +274,7 @@ Widget algoview()
                        padding: const EdgeInsets.all(16.0),
                         child: Text("Iterations : $it",style: TextStyle(fontSize:20),),
                     ),
-                carddetails("O(n^2)","O(n^2)","Every array","Every Array","normal sorting so not many applications"),
+              carddetails("O(n^2)","O(n^2)","Every array","Every Array","normal sorting so not many applications"),
              
             ]
           ),

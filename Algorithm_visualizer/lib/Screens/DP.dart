@@ -16,12 +16,12 @@ class _DPState extends State<DP> {
         title: Text("Dynamic Programming Visulization"),
       ),
       body: Container(
-        decoration: BoxDecoration(
-          image: DecorationImage(
-            image: AssetImage("assets/Daa.jpg"),
-            fit: BoxFit.cover,
-          ),
-        ),
+        // decoration: BoxDecoration(
+        //   image: DecorationImage(
+        //     image: AssetImage("assets/Daa.jpg"),
+        //     fit: BoxFit.cover,
+        //   ),
+      // ),
 
         child: Center(
           
@@ -44,7 +44,7 @@ class _DPState extends State<DP> {
                         color: Colors.blue,
                         textColor: Colors.white,
                         child: Text("Longest commong subsequence".toUpperCase(),
-                          style:TextStyle(fontSize: 24,fontWeight: FontWeight.bold,color: Colors.amber )),
+                          style:TextStyle(fontSize: 22,fontWeight: FontWeight.bold,color: Colors.amber )),
                       ),
                 ),
 

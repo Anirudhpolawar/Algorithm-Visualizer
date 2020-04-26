@@ -14,12 +14,12 @@ class _GreedyState extends State<Greedy> {
         title: Text("Greedy algortithm Visualization"),
       ),
       body: Container(
-        decoration: BoxDecoration(
-          image: DecorationImage(
-            image: AssetImage("assets/Daa.jpg"),
-            fit: BoxFit.cover,
-          ),
-        ),
+        // decoration: BoxDecoration(
+        //   image: DecorationImage(
+        //     image: AssetImage("assets/Daa.jpg"),
+        //     fit: BoxFit.cover,
+        //   ),
+        // ),
 
         child: Center(
           
@@ -38,26 +38,12 @@ class _GreedyState extends State<Greedy> {
                         },
                         color: Colors.blue,
                         textColor: Colors.white,
-                        child: Text("Longest commong subsequence".toUpperCase(),
+                        child: Text("Stock buy and Sell".toUpperCase(),
                           style: TextStyle(fontSize: 24,fontWeight: FontWeight.bold,color: Colors.amber )),
                       ),
                 ),
 
-                 Padding(
-                    padding: EdgeInsets.all(8),
-                    child:   RaisedButton(
-                        shape: new RoundedRectangleBorder(
-                          borderRadius: new BorderRadius.circular(18.0),
-                          side: BorderSide(color: Colors.blue)),
-                        onPressed: () {
-                          
-                        },
-                        color: Colors.blue,
-                        textColor: Colors.white,
-                        child: Text("Longest Incresing sequence".toUpperCase(),
-                          style: TextStyle(fontSize: 24,fontWeight: FontWeight.bold,color: Colors.amber )),
-                      ),
-                ),
+               
 
 
               
