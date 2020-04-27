@@ -18,12 +18,12 @@ class _SortState extends State<Sort> {
         title: Text("Sorting Visulization"),
       ),
       body: Container(
-        decoration: BoxDecoration(
-          image: DecorationImage(
-            image: AssetImage("assets/Daa.jpg"),
-            fit: BoxFit.cover,
-          ),
-        ),
+        // decoration: BoxDecoration(
+        //   image: DecorationImage(
+        //     image: AssetImage("assets/Daa.jpg"),
+        //     fit: BoxFit.cover,
+        //   ),
+        // ),
         child: Center(
           
           child: Column(

@@ -1,6 +1,7 @@
 
 
 import 'package:flutter/material.dart';
+import 'package:Algorithm_visualizer/Screens/DetailCard.dart';
 
 class Quick extends StatefulWidget {
   @override
@@ -297,6 +298,7 @@ Widget algoview()
                        padding: const EdgeInsets.all(16.0),
                         child: Text("Iterations : $it",style: TextStyle(fontSize:20),),
                     ),
+                    carddetails("Θ(N^2)","Θ(N log N)","The partition algorithm divides the array in two subarrays with equal size","The array is sorted or reverse sorted, the partition algorithm divides the array in two subarrays with 0 and n-1 elements","used everywhere where a stable sort is not needed"),
              
             ]
           ),

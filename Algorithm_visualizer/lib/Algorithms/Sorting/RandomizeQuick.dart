@@ -1,5 +1,6 @@
 
 import 'dart:math';
+import 'package:Algorithm_visualizer/Screens/DetailCard.dart';
 import 'package:flutter/material.dart';
 
 class RandomizeQuick extends StatefulWidget {
@@ -297,6 +298,8 @@ Widget algoview()
                        padding: const EdgeInsets.all(16.0),
                         child: Text("Iterations : $it",style: TextStyle(fontSize:20),),
                     ),
+              carddetails("Θ(N^2)","Θ(N log N) ","When Randomly Selected elemented is the middle","randomly chosen pivot is selected in sorted or reverse sorted order.","used everywhere where a stable sort is not needed"),
+
              
             ]
           ),

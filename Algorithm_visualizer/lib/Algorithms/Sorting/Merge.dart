@@ -1,5 +1,6 @@
 
 
+import 'package:Algorithm_visualizer/Screens/DetailCard.dart';
 import 'package:flutter/material.dart';
 
 class Merge extends StatefulWidget {
@@ -332,6 +333,7 @@ Widget algoview()
                        padding: const EdgeInsets.all(16.0),
                         child: Text("Iterations : $it",style: TextStyle(fontSize:20),),
                     ),
+                    carddetails("O(N log N)","Ω(N log N)","nlogn which is independent of distribution of data.","nlogn which is independent of distribution of data.","is useful for sorting linked lists in O(n Log n) time"),
              
             ]
           ),
