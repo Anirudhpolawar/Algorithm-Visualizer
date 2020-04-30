@@ -1,3 +1,4 @@
+import 'package:Algorithm_visualizer/Algorithms/Greedy/Stock.dart';
 import 'package:flutter/material.dart';
 
 class Greedy extends StatefulWidget {
@@ -34,7 +35,10 @@ class _GreedyState extends State<Greedy> {
                           borderRadius: new BorderRadius.circular(18.0),
                           side: BorderSide(color: Colors.blue)),
                         onPressed: () {
-                         
+                             Navigator.push(
+                                    context,
+                                    MaterialPageRoute(builder: (context) => Stock()),
+                                  );
                         },
                         color: Colors.blue,
                         textColor: Colors.white,

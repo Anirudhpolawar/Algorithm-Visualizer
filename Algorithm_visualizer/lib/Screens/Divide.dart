@@ -1,3 +1,5 @@
+import 'package:Algorithm_visualizer/Algorithms/Divide/Fast.dart';
+import 'package:Algorithm_visualizer/Algorithms/Divide/Josephus.dart';
 import 'package:flutter/material.dart';
 
 class Divide extends StatefulWidget {
@@ -34,7 +36,10 @@ class _DivideState extends State<Divide> {
                           borderRadius: new BorderRadius.circular(18.0),
                           side: BorderSide(color: Colors.blue)),
                         onPressed: () {
-                         
+                          Navigator.push(
+                                    context,
+                                    MaterialPageRoute(builder: (context) => Josh()),
+                                  );
                         },
                         color: Colors.blue,
                         textColor: Colors.white,
@@ -50,6 +55,10 @@ class _DivideState extends State<Divide> {
                           borderRadius: new BorderRadius.circular(18.0),
                           side: BorderSide(color: Colors.blue)),
                         onPressed: () {
+                             Navigator.push(
+                                    context,
+                                    MaterialPageRoute(builder: (context) => Fast()),
+                                  );
                           
                         },
                         color: Colors.blue,

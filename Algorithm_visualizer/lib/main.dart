@@ -66,7 +66,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     child:   RaisedButton(
                         shape: new RoundedRectangleBorder(
                           borderRadius: new BorderRadius.circular(18.0),
-                          side: BorderSide(color: Colors.blue)),
+                          side: BorderSide(color: Colors.white)),
                         onPressed: () {
                           Navigator.push(
                                     context,
