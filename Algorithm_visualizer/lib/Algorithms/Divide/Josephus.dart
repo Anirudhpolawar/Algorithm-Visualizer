@@ -14,44 +14,34 @@ class _LISJosh extends State<Josh> {
   final nameHolder = TextEditingController();
   int it = 0;
   int val;
-  int val2;
-  int val3;
+ 
 
   void sort()
   {
       listarray.clear();
       show.clear();
-      int temp = goodwho(val);
-      
-  }
-
-int goodwho(int n)
-{
-    if(n == 1 || n == 2)
-        return 1;
-    if(n%2==0)
-    {
-        int temp= (2*goodwho((n/2).floor()) - 1);
-        List<int> temp1 = [];
-        temp1.add(temp);
-         listarray.add(temp1);
-         show.add(temp1);
-         return temp;
-    }
-       
-    else
-    {
-        int temp= (2*goodwho((n/2).floor()) + 1);
+      int n = val;
+       int p = 1; 
+    while (p <= n) 
+     {  
          List<int> temp1 = [];
-        temp1.add(temp);
+        temp1.add(p);
          listarray.add(temp1);
          show.add(temp1);
-         return temp;
-    }
-       
- 
-}
+        p *= 2; 
 
+     }
+    //  List<int> temp2 = [];
+    //     temp2.add(p);
+    //      listarray.add(temp2);
+    //      show.add(temp2);
+
+     List<int> temp1 = [];
+        temp1.add((2 * n) - p + 1);
+         listarray.add(temp1);
+         show.add(temp1);
+
+  }
 
 
 
@@ -169,7 +159,7 @@ Widget algoview()
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title:Text("    Fast Modulo   ")
+        title:Text("    Josephus    ")
       ),
       body:Center(
         child: SingleChildScrollView(

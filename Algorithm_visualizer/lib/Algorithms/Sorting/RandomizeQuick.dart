@@ -233,7 +233,7 @@ Widget algoview()
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title:Text("Quick Sort")
+        title:Text("Randomize Quick Sort")
       ),
       body:Center(
         child: SingleChildScrollView(
